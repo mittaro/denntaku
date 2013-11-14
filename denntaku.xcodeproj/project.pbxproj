@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BC0970018349005004CB766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC096FF18349005004CB766 /* UIKit.framework */; };
+		8BC0970218349005004CB766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC0970118349005004CB766 /* Foundation.framework */; };
+		8BC0970418349005004CB766 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC0970318349005004CB766 /* CoreGraphics.framework */; };
+		8BC0970A18349006004CB766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BC0970818349006004CB766 /* InfoPlist.strings */; };
+		8BC0970C18349006004CB766 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0970B18349006004CB766 /* main.m */; };
+		8BC0971018349006004CB766 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0970F18349006004CB766 /* AppDelegate.m */; };
+		8BC0971218349006004CB766 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC0971118349006004CB766 /* Default.png */; };
+		8BC0971418349006004CB766 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC0971318349006004CB766 /* Default@2x.png */; };
+		8BC0971618349006004CB766 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC0971518349006004CB766 /* Default-568h@2x.png */; };
+		8BC0971918349006004CB766 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC0971718349006004CB766 /* MainStoryboard_iPhone.storyboard */; };
+		8BC0971C18349006004CB766 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC0971A18349006004CB766 /* MainStoryboard_iPad.storyboard */; };
+		8BC0971F18349006004CB766 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0971E18349006004CB766 /* ViewController.m */; };
+		8BC0972718349006004CB766 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC0972618349006004CB766 /* SenTestingKit.framework */; };
+		8BC0972818349006004CB766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC096FF18349005004CB766 /* UIKit.framework */; };
+		8BC0972918349006004CB766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC0970118349005004CB766 /* Foundation.framework */; };
+		8BC0973118349006004CB766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BC0972F18349006004CB766 /* InfoPlist.strings */; };
+		8BC0973418349006004CB766 /* denntakuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0973318349006004CB766 /* denntakuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BC0972A18349006004CB766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BC096F418349005004CB766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC096FB18349005004CB766;
+			remoteInfo = denntaku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BC096FC18349005004CB766 /* denntaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = denntaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC096FF18349005004CB766 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BC0970118349005004CB766 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BC0970318349005004CB766 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BC0970718349006004CB766 /* denntaku-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "denntaku-Info.plist"; sourceTree = "<group>"; };
+		8BC0970918349006004CB766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BC0970B18349006004CB766 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BC0970D18349006004CB766 /* denntaku-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "denntaku-Prefix.pch"; sourceTree = "<group>"; };
+		8BC0970E18349006004CB766 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BC0970F18349006004CB766 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BC0971118349006004CB766 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8BC0971318349006004CB766 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8BC0971518349006004CB766 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8BC0971818349006004CB766 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8BC0971B18349006004CB766 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8BC0971D18349006004CB766 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BC0971E18349006004CB766 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BC0972518349006004CB766 /* denntakuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = denntakuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC0972618349006004CB766 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8BC0972E18349006004CB766 /* denntakuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "denntakuTests-Info.plist"; sourceTree = "<group>"; };
+		8BC0973018349006004CB766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BC0973218349006004CB766 /* denntakuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = denntakuTests.h; sourceTree = "<group>"; };
+		8BC0973318349006004CB766 /* denntakuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = denntakuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC096F918349005004CB766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC0970018349005004CB766 /* UIKit.framework in Frameworks */,
+				8BC0970218349005004CB766 /* Foundation.framework in Frameworks */,
+				8BC0970418349005004CB766 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC0972118349006004CB766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC0972718349006004CB766 /* SenTestingKit.framework in Frameworks */,
+				8BC0972818349006004CB766 /* UIKit.framework in Frameworks */,
+				8BC0972918349006004CB766 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BC096F318349005004CB766 = {
+			isa = PBXGroup;
+			children = (
+				8BC0970518349005004CB766 /* denntaku */,
+				8BC0972C18349006004CB766 /* denntakuTests */,
+				8BC096FE18349005004CB766 /* Frameworks */,
+				8BC096FD18349005004CB766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC096FD18349005004CB766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC096FC18349005004CB766 /* denntaku.app */,
+				8BC0972518349006004CB766 /* denntakuTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BC096FE18349005004CB766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BC096FF18349005004CB766 /* UIKit.framework */,
+				8BC0970118349005004CB766 /* Foundation.framework */,
+				8BC0970318349005004CB766 /* CoreGraphics.framework */,
+				8BC0972618349006004CB766 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BC0970518349005004CB766 /* denntaku */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0970E18349006004CB766 /* AppDelegate.h */,
+				8BC0970F18349006004CB766 /* AppDelegate.m */,
+				8BC0971718349006004CB766 /* MainStoryboard_iPhone.storyboard */,
+				8BC0971A18349006004CB766 /* MainStoryboard_iPad.storyboard */,
+				8BC0971D18349006004CB766 /* ViewController.h */,
+				8BC0971E18349006004CB766 /* ViewController.m */,
+				8BC0970618349006004CB766 /* Supporting Files */,
+			);
+			path = denntaku;
+			sourceTree = "<group>";
+		};
+		8BC0970618349006004CB766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0970718349006004CB766 /* denntaku-Info.plist */,
+				8BC0970818349006004CB766 /* InfoPlist.strings */,
+				8BC0970B18349006004CB766 /* main.m */,
+				8BC0970D18349006004CB766 /* denntaku-Prefix.pch */,
+				8BC0971118349006004CB766 /* Default.png */,
+				8BC0971318349006004CB766 /* Default@2x.png */,
+				8BC0971518349006004CB766 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BC0972C18349006004CB766 /* denntakuTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0973218349006004CB766 /* denntakuTests.h */,
+				8BC0973318349006004CB766 /* denntakuTests.m */,
+				8BC0972D18349006004CB766 /* Supporting Files */,
+			);
+			path = denntakuTests;
+			sourceTree = "<group>";
+		};
+		8BC0972D18349006004CB766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0972E18349006004CB766 /* denntakuTests-Info.plist */,
+				8BC0972F18349006004CB766 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BC096FB18349005004CB766 /* denntaku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC0973718349006004CB766 /* Build configuration list for PBXNativeTarget "denntaku" */;
+			buildPhases = (
+				8BC096F818349005004CB766 /* Sources */,
+				8BC096F918349005004CB766 /* Frameworks */,
+				8BC096FA18349005004CB766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = denntaku;
+			productName = denntaku;
+			productReference = 8BC096FC18349005004CB766 /* denntaku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BC0972418349006004CB766 /* denntakuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC0973A18349006004CB766 /* Build configuration list for PBXNativeTarget "denntakuTests" */;
+			buildPhases = (
+				8BC0972018349006004CB766 /* Sources */,
+				8BC0972118349006004CB766 /* Frameworks */,
+				8BC0972218349006004CB766 /* Resources */,
+				8BC0972318349006004CB766 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC0972B18349006004CB766 /* PBXTargetDependency */,
+			);
+			name = denntakuTests;
+			productName = denntakuTests;
+			productReference = 8BC0972518349006004CB766 /* denntakuTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BC096F418349005004CB766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Univercity of Kitakyushu";
+			};
+			buildConfigurationList = 8BC096F718349005004CB766 /* Build configuration list for PBXProject "denntaku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BC096F318349005004CB766;
+			productRefGroup = 8BC096FD18349005004CB766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BC096FB18349005004CB766 /* denntaku */,
+				8BC0972418349006004CB766 /* denntakuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BC096FA18349005004CB766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC0970A18349006004CB766 /* InfoPlist.strings in Resources */,
+				8BC0971218349006004CB766 /* Default.png in Resources */,
+				8BC0971418349006004CB766 /* Default@2x.png in Resources */,
+				8BC0971618349006004CB766 /* Default-568h@2x.png in Resources */,
+				8BC0971918349006004CB766 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8BC0971C18349006004CB766 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC0972218349006004CB766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC0973118349006004CB766 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BC0972318349006004CB766 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BC096F818349005004CB766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC0970C18349006004CB766 /* main.m in Sources */,
+				8BC0971018349006004CB766 /* AppDelegate.m in Sources */,
+				8BC0971F18349006004CB766 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC0972018349006004CB766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC0973418349006004CB766 /* denntakuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BC0972B18349006004CB766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC096FB18349005004CB766 /* denntaku */;
+			targetProxy = 8BC0972A18349006004CB766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BC0970818349006004CB766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC0970918349006004CB766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BC0971718349006004CB766 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC0971818349006004CB766 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC0971A18349006004CB766 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC0971B18349006004CB766 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC0972F18349006004CB766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC0973018349006004CB766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BC0973518349006004CB766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BC0973618349006004CB766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BC0973818349006004CB766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "denntaku/denntaku-Prefix.pch";
+				INFOPLIST_FILE = "denntaku/denntaku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BC0973918349006004CB766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "denntaku/denntaku-Prefix.pch";
+				INFOPLIST_FILE = "denntaku/denntaku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8BC0973B18349006004CB766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/denntaku.app/denntaku";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "denntaku/denntaku-Prefix.pch";
+				INFOPLIST_FILE = "denntakuTests/denntakuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8BC0973C18349006004CB766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/denntaku.app/denntaku";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "denntaku/denntaku-Prefix.pch";
+				INFOPLIST_FILE = "denntakuTests/denntakuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BC096F718349005004CB766 /* Build configuration list for PBXProject "denntaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC0973518349006004CB766 /* Debug */,
+				8BC0973618349006004CB766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC0973718349006004CB766 /* Build configuration list for PBXNativeTarget "denntaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC0973818349006004CB766 /* Debug */,
+				8BC0973918349006004CB766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BC0973A18349006004CB766 /* Build configuration list for PBXNativeTarget "denntakuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC0973B18349006004CB766 /* Debug */,
+				8BC0973C18349006004CB766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BC096F418349005004CB766 /* Project object */;
+}
