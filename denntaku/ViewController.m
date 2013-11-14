@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)b1:(id)sender {
+    NSInteger num1 = 1;
+    　　NSString *print = [[NSString alloc] initWithFormat:@"%d!", num1];
+       self.numberOutput.text = print;
+}
 @end
