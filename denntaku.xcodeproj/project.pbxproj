@@ -467,6 +467,7 @@
 				8BC0973918349006004CB766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BC0973A18349006004CB766 /* Build configuration list for PBXNativeTarget "denntakuTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +476,7 @@
 				8BC0973C18349006004CB766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
